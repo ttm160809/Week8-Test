@@ -42,5 +42,10 @@
     "sass": "^1.69.7",
     "vite": "^5.0.10",
     "vite-plugin-eslint": "^1.8.1"
-  }
+  },
+  "description": "> 這是六角學院的 Vue 樣板，是基於 Vite 所建立的專案。",
+  "main": "loadEnv.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
