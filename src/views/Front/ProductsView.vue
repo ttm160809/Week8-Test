@@ -2,7 +2,7 @@
     <VLoading :active="isLoading"></VLoading>
   <div class="container mt-md-5">
     <section class="position-relative">
-      <img src="../../assets/image/menuBanner.jpg" class="card-img-top menu-banner" alt="...">
+      <img src="../../assets/img/menuBanner.jpg" class="card-img-top menu-banner" alt="...">
       <h2 class="fs-5r fw-bold position-absolute bg-primary bg-opacity-50
           text-white text-center top-50 start-50 translate-middle w-75 p-3">
         メニュー
@@ -17,7 +17,6 @@
                   :key="category">{{ category }}</option>
         </select>
       </div>
-    <!-- </div> -->
         <div class="row product-cards-list justify-content-center">
           <div class="col-md-4" v-for="product in products" :key="product.id">
             <div class="product-cards card border-0 mb-4" @click="openModal(product)">
@@ -29,20 +28,18 @@
                     style="object-fit: cover;" height="300"
                     alt="...">
               </div>
-              <div class="card-body row">
-                <h3 class="mb-4 text-primary fw-bolder">{{ product.title }}</h3>
-                <div class="col">
+              <div class="card-body">
+                <h3 class="mb-4 text-primary fw-bolder fs-4">{{ product.title }}</h3>
+                <div class="d-flex flex-nowrap justify-content-between">
                 <p class="card-text mb-0">
-                  <span class="fw-bold fs-4 me-3 text-change">¥ {{ product.price }}</span>
-                  <span class="text-muted "><del>¥ {{ product.origin_price }}</del></span>
+                  <span class="fw-bold fs-4 me-1 text-change">¥ {{ product.price }}</span>
+                  <span class="text-muted"><del>¥ {{ product.origin_price }}</del></span>
                 </p>
-                </div>
-                <div class="col text-end d-flex align-items-center justify-content-end">
-                  <button type="button" class="btn btn-primary text-white position-absolute"
-                          @click.stop="addToCart(product.id, 1)">
-                    <i class="bi bi-cart-fill me-1"></i>
-                    カートに入れる
-                  </button>
+                <button type="button" class="btn btn-primary text-white d-flex justify-content-end"
+                        @click.stop="addToCart(product.id, 1)">
+                  <i class="bi bi-cart-fill me-1"></i>
+                  <span class="fs-6">カートに入れる</span>
+                </button>
                 </div>
               </div>
             </div>

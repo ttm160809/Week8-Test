@@ -4,7 +4,7 @@
       <h1 class="fs-2 me-4">
         <RouterLink to="/" class="navbar-brand">
           <img
-            src="../assets/image/Logo.png"
+            src="../assets/img/Logo.png"
             alt="logo"
             style="object-fit: cover;" height="50" width="180"/>
         </RouterLink>
@@ -18,9 +18,8 @@
       </ul>
       <div class="cart-icon position-relative ms-auto" :disabled="this.$route.path === '/cart'">
         <RouterLink to="/cart" class="me-2">
-          <i class="bi bi-cart-fill fs-3 text-white"></i>
-          <span class="cart-dot translate-middle badge rounded-pill bg-change">
-            <!-- position-absolute top-0 start-100 -->
+          <i class="bi bi-cart-fill fs-2 text-white"></i>
+          <span class="cart-dot translate-middle badge rounded-pill bg-change fs-6">
             <!-- ?. 可選串聯，用來精簡判斷物件是否存在時的寫法 -->
             {{ carts?.length }}
           </span>
@@ -31,13 +30,8 @@
               aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <!-- navbar-collapse collapse navbar-nav d-flex flex-column flex-grow-1 align-
-        items-center text-center mx-auto-->
       <ul class="nav-list collapse text-white mt-3 mt-md-0 d-md-none text-center mx-auto"
           id="navbarNav">
-        <!-- <li class="nav-item position-relative" @click="closeNavbar()">
-          <RouterLink to="/about" class="">
-          About</RouterLink></li> -->
         <li class="position-relative" @click="closeNavbar()">
           <RouterLink to="/products">商品列表</RouterLink>
         </li>

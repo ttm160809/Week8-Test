@@ -2,7 +2,7 @@
   <aside class="aside-navbar py-3 h-100 position-fixed
                 d-flex flex-column align-items-center">
     <img
-         src="/public/image/Favicon.png"
+         src="../assets/img/Logo2.png"
          alt="logo"
          class="my-4"/>
       <ul class="nav w-100 d-flex flex-column text-center">

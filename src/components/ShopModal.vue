@@ -19,7 +19,7 @@
             <p class="my-1">{{ editProduct.description }}</p>
           </div>
           <p class="card-text mb-0">
-            <span class="fw-bold fs-4 me-3 text-change">¥ {{ editProduct.price }}</span>
+            <span class="fw-bold fs-4 me-1 text-change">¥ {{ editProduct.price }}</span>
             <span class="text-muted "><del>¥ {{ editProduct.origin_price }}</del></span>
           </p>
         </div>
@@ -29,7 +29,6 @@
           <div class="input-group">
             <select name="" id="" class="form-select" v-model="qty" ref="qtyValue">
               <option :value="i" v-for="i in 20" :key="i">{{ i }}</option>
-              <!-- <option :value="i" v-for="i in this.qty" :key="i">{{ i }}</option> -->
             </select>
           </div>
         </div>

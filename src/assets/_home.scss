@@ -1,15 +1,12 @@
 .home-banner {
-    background-image: url("../image/homeBanner.jpg");
-    // position: absolute;
+    background-image: url("/src/assets/img/homeBanner.jpg");
     background-size: cover;
-    
     background-position: center 30%;
-
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
     height: calc(100vh - 82px );
+    h2 {
+        font-family: "Dela Gothic One", sans-serif;
+        font-weight: 400;
+    }
 }
 
 .category-cards {
