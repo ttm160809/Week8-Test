@@ -35,7 +35,9 @@
                         </span>
                     </td>
                     <td class="text-danger fs-5 text-end">x {{ item.qty }}</td>
-                    <td class="text-change fw-bold fs-5 text-end">¥ {{ item.final_total }}</td>
+                    <td class="text-change fw-bold fs-5 text-end">
+                      ¥ {{ Math.round(item.final_total) }}
+                    </td>
                   </tr>
                 </tbody>
               </table>
