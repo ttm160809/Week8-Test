@@ -21,7 +21,7 @@
         data-aos="zoom-in" data-aos-duration="1000">こだわり</h2>
     <div class="row" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
       <div class="col-md-6 text-center mb-2 mb-md-0">
-        <img src="../../../public/image/foodSafety.jpg"
+        <img src="../../assets/image/foodSafety.jpg"
              style="object-fit: cover;" height="350px" class="w-100" alt="">
       </div>
       <div class="col-md-5 my-auto">
@@ -33,7 +33,7 @@
     <div class="row flex-row-reverse mt-4"
          data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
       <div class="col-md-6 text-center mb-2 mb-md-0">
-        <img src="../../../public/image/handMade.jpg"
+        <img src="../../assets/image/handMade.jpg"
              style="object-fit: cover;" height="350px" class="w-100" alt="" >
              <!-- class="img-fluid" -->
       </div>
@@ -50,7 +50,7 @@
                       justify-content-center align-items-center py-5"
                data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
             <div class="mb-4 mb-md-0">
-              <img src="../../../public/image/couponGift.jpg"
+              <img src="../../assets/image/couponGift.jpg"
               height="200px" width="250px"
                     alt="...">
             </div>
@@ -78,7 +78,7 @@
           <div class="category-cards card overflow-hidden
                       border-0 rounded-0" @click="categorySelect('バーガー')">
             <img
-              src="../../../public/image/burger.jpg"
+              src="../../assets/image/burger.jpg"
               style="object-fit: cover;" height="250"
               class="card-img-top rounded-0"
               alt="..."
@@ -92,7 +92,7 @@
           <div class="category-cards card overflow-hidden
                       border-0 rounded-0" @click="categorySelect('サイド')">
             <img
-              src="../../../public/image/side.jpg"
+              src="../../assets/image/side.jpg"
               style="object-fit: cover;" height="250"
               class="card-img-top rounded-0"
               alt="..."
@@ -106,7 +106,7 @@
           <div class="category-cards card overflow-hidden
                       border-0 rounded-0" @click="categorySelect('ドリンク')">
             <img
-              src="../../../public/image/drink.jpg"
+              src="../../assets/image/drink.jpg"
               style="object-fit: cover;" height="250"
               class="card-img-top rounded-0"
               alt="..."

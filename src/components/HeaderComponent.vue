@@ -4,7 +4,7 @@
       <h1 class="fs-2 me-4">
         <RouterLink to="/" class="navbar-brand">
           <img
-            src="/public/image/Logo.png"
+            src="../assets/image/Logo.png"
             alt="logo"
             style="object-fit: cover;" height="50" width="180"/>
         </RouterLink>

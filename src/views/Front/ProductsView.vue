@@ -2,7 +2,7 @@
     <VLoading :active="isLoading"></VLoading>
   <div class="container mt-md-5">
     <section class="position-relative">
-      <img src="../../../public/image/menuBanner.jpg" class="card-img-top menu-banner" alt="...">
+      <img src="../../assets/image/menuBanner.jpg" class="card-img-top menu-banner" alt="...">
       <h2 class="fs-5r fw-bold position-absolute bg-primary bg-opacity-50
           text-white text-center top-50 start-50 translate-middle w-75 p-3">
         メニュー
